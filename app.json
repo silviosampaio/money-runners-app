@@ -1,11 +1,13 @@
 {
   "expo": {
-    "name": "app",
-    "slug": "app",
+    "name": "Money Runners",
+    "slug": "money-runners",
     "version": "1.0.0",
-    "assetBundlePatterns": [
-      "**/*"
-    ]
+    "assetBundlePatterns": ["**/*"],
+    "android": {
+      "package": "app.moneyrunners",
+      "googleServicesFile": "./google-services.json"
+    }
   },
-  "name": "app"
+  "name": "Money Runners"
 }
